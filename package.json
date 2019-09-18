@@ -1,0 +1,42 @@
+{
+  "name": "@jouddeken/react-router-zero-config",
+  "description": "React Router config out of the box.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jouddeken/react-router-zero-config.git"
+  },
+  "author": "Job Ouddeken <jobouddeken@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Jouddeken/react-router-zero-config/issues"
+  },
+  "homepage": "https://github.com/Jouddeken/react-router-zero-config#readme"
+}
