@@ -11,6 +11,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "test": "echo no tests! && exit 0",
     "build": "babel src -d dist"
   },
   "dependencies": {},
