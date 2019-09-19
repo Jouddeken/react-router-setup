@@ -19,9 +19,17 @@ Using Yarn
 yarn add @jouddeken/react-router-zero-config
 ```
 
+## PeerDependencies
+
+This package requires the following packages to be available in the dependencies of your project:
+
+- `prop-types`
+- `react`
+- `react-router-dom`
+
 ## Usage
 
-1. Create a JSON config file with the following pattern:
+1. Create a config file, example:
 
    ```javascript
    import React from 'react'; // used for React.lazy
@@ -37,9 +45,10 @@ yarn add @jouddeken/react-router-zero-config
    
    ```
 
-2. Import the package and pass in the config as property to the Router component
+2. Import the required packages and pass in the config as property to the Router component
 
    ```javascript
+   import React from 'react';
    import Router from '@jouddeken/react-router-zero-config';
    import routeConfig from './path/to/config/file';
    
@@ -51,4 +60,3 @@ yarn add @jouddeken/react-router-zero-config
    
    ```
 
-   
