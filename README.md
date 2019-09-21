@@ -1,6 +1,6 @@
 # React Router Setup
 
-Use the react-router-dom package with just a single element and a config file in json.
+Use the react-router-dom package with just a single element to render and a config file.
 
 ## Prerequisites
 
