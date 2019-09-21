@@ -1,4 +1,4 @@
-# React Router Zero Config
+# React Router Setup
 
 Use the react-router-dom package with just a single element and a config file in json.
 
@@ -12,11 +12,11 @@ Use the react-router-dom package with just a single element and a config file in
 Using NPM:
 
 ```
-npm install @jouddeken/react-router-zero-config
+npm install @jouddeken/react-router-setup
 ```
 Using Yarn
 ```markdown
-yarn add @jouddeken/react-router-zero-config
+yarn add @jouddeken/react-router-setup
 ```
 
 ## PeerDependencies
@@ -49,7 +49,7 @@ This package requires the following packages to be available in the dependencies
 
    ```javascript
    import React from 'react';
-   import Router from '@jouddeken/react-router-zero-config';
+   import Router from '@jouddeken/react-router-setup';
    import routeConfig from './path/to/config/file';
    
    const App = () => (

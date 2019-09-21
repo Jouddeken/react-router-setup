@@ -1,20 +1,19 @@
 {
-  "name": "@jouddeken/react-router-zero-config",
-  "description": "React Router config out of the box.",
+  "name": "@jouddeken/react-router-setup",
+  "description": "React Router setup.",
   "version": "0.0.4",
   "main": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Jouddeken/react-router-zero-config.git"
+    "url": "git+ssh://git@github.com/Jouddeken/react-router-setup.git"
   },
   "author": "Job Ouddeken <jobouddeken@hotmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
     "test": "echo no tests! && exit 0",
-    "build": "babel src -d dist"
+    "build": "rimraf dist && babel src -d dist"
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
@@ -26,6 +25,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-router-dom": "^5.0.1",
+    "rimraf": "^3.0.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9"
   },
@@ -35,7 +35,7 @@
     "react-router-dom": "^5.0.1"
   },
   "bugs": {
-    "url": "https://github.com/Jouddeken/react-router-zero-config/issues"
+    "url": "https://github.com/Jouddeken/react-router-setup/issues"
   },
-  "homepage": "https://github.com/Jouddeken/react-router-zero-config#readme"
+  "homepage": "https://github.com/Jouddeken/react-router-setup#readme"
 }
