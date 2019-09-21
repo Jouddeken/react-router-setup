@@ -1,9 +1,14 @@
 {
   "name": "@jouddeken/react-router-setup",
   "description": "React Router setup.",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "main": "./dist/index.js",
-  "keywords": ["react", "react-router", "react-router-dom", "routing"],
+  "keywords": [
+    "react",
+    "react-router",
+    "react-router-dom",
+    "routing"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Jouddeken/react-router-setup.git"
