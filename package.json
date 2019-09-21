@@ -14,25 +14,17 @@
     "test": "echo no tests! && exit 0",
     "build": "rimraf dist && babel src -d dist"
   },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-router-dom": "^5.0.1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
-    "@babel/runtime": "^7.6.0",
-    "babel-loader": "^8.0.6",
-    "path": "^0.12.7",
-    "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-router-dom": "^5.0.1",
-    "rimraf": "^3.0.0",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.9"
-  },
-  "peerDependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-router-dom": "^5.0.1"
+    "rimraf": "^3.0.0"
   },
   "bugs": {
     "url": "https://github.com/Jouddeken/react-router-setup/issues"
