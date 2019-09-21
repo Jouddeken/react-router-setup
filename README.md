@@ -19,9 +19,9 @@ Using Yarn
 yarn add @jouddeken/react-router-setup
 ```
 
-## PeerDependencies
+## Dependencies
 
-This package requires the following packages to be available in the dependencies of your project:
+This package requires the following packages:
 
 - `prop-types`
 - `react`
