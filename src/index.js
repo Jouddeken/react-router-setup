@@ -11,7 +11,7 @@ const Router = ({ config, loadingComponent }) => {
             id,
             path,
             exact = false,
-            component
+            component = null,
           }) => (
             <Route
               id={id}
@@ -36,11 +36,11 @@ Router.propTypes = {
       component: PropTypes.node.isRequired,
     }),
   ).isRequired,
-  loadingComponent: PropTypes.oneOfType(
+  loadingComponent: PropTypes.oneOfType([
     PropTypes.node,
     PropTypes.string,
     PropTypes.number,
-  ),
+  ]),
 };
 
 Router.defaultProps = {
